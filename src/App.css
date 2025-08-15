@@ -1,0 +1,118 @@
+* {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.strike{
+  text-decoration: line-through;
+}
+.heading{
+  color: rgb(239, 239, 124);
+  font-weight: bold;
+  font-size: 3rem;
+  /* margin: auto; */
+  padding-bottom: 20px 
+}
+.task-input{
+  box-sizing: border-box;
+  background-color:antiquewhite;
+  border-radius: 5px;
+  padding:5px;
+  margin: 10px;
+  color: black;
+   font-weight: bold;
+}
+
+.btn-add{
+  background-color: green;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.btn-add:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid green;
+  cursor: pointer;
+}
+.output-section{
+  display: flex;
+}
+.alltasks{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+.tasks{
+  color: white;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+.btn-edit{
+  background-color: rgb(43, 175, 220);
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+
+}
+.btn-edit:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid lightblue;
+  cursor: pointer;
+}
+.btn-delete{
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+.btn-delete:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid red;
+  cursor:pointer;
+}
+
+.checkbox{
+margin: 10px;
+
+}
+
+.edit-input{
+  box-sizing: border-box;
+  background-color:beige;
+  border-radius: 5px;
+  padding:5px;
+  margin: 10px;
+  color: black;
+  font-style: italic;
+  font-weight:lighter;
+}
+
+.btn-save{
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+.btn-save:hover{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+
+}
